@@ -12,7 +12,7 @@ const LINKS = [
 function useTheme() {
   const [theme, setTheme] = useState(() => {
     try { const t = localStorage.getItem("theme"); if (t) return t; } catch {}
-    return matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    return "dark";
   });
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
