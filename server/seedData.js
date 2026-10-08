@@ -120,11 +120,12 @@ export const works = [
       "Cloud-based attendance system using RFID technology to track students entering school premises. I led the team; it is deployed at a prestigious school with 350+ users.",
     tags: ["RFID", "Cloud", "Team lead"],
     links: { code: "", demo: "", paper: "" },
-    order: 5,
+    order: 4.6,
   },
   {
     type: "software",
     slug: "fidel",
+    featured: true,
     title: "Fidel",
     description: "JavaScript web project.",
     tags: ["JavaScript", "Web"],
@@ -133,7 +134,7 @@ export const works = [
       demo: "",
       paper: "",
     },
-    order: 6,
+    order: 4.4,
   },
   {
     type: "software",
@@ -202,7 +203,7 @@ export const works = [
       "2025",
     ],
     links: { code: "", demo: "https://hpi-mit.vercel.app/", paper: "" },
-    order: 8,
+    order: 4.2,
   },
   {
     type: "research",
