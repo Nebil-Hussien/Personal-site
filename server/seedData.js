@@ -113,6 +113,19 @@ export const works = [
   },
   {
     type: "software",
+    slug: "fidel",
+    title: "Fidel",
+    description: "JavaScript web project.",
+    tags: ["JavaScript", "Web"],
+    links: {
+      code: "https://github.com/Nebil-Hussien/Fidel-Finalized",
+      demo: "",
+      paper: "",
+    },
+    order: 5,
+  },
+  {
+    type: "software",
     slug: "rfid-attendance",
     featured: true,
     title: "RFID Biometric Student Attendance",
@@ -339,19 +352,6 @@ export const works = [
       paper: "",
     },
     order: 21,
-  },
-  {
-    type: "software",
-    slug: "fidel",
-    title: "Fidel",
-    description: "JavaScript web project.",
-    tags: ["JavaScript", "Web"],
-    links: {
-      code: "https://github.com/Nebil-Hussien/Fidel-Finalized",
-      demo: "",
-      paper: "",
-    },
-    order: 5,
   },
   {
     type: "software",
