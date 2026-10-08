@@ -122,7 +122,7 @@ export const works = [
       demo: "",
       paper: "",
     },
-    order: 5,
+    order: 6,
   },
   {
     type: "software",
