@@ -130,7 +130,7 @@ export const works = [
       "Hands-on research into Kubernetes resilience: simulated pod failures and recovery with liveness and readiness probes, and observed automatic scaling under changing load.",
     tags: ["Kubernetes", "Docker", "2023"],
     links: { code: "", demo: "", paper: "" },
-    order: 6,
+    order: 22,
   },
   {
     type: "software",
@@ -351,7 +351,7 @@ export const works = [
       demo: "",
       paper: "",
     },
-    order: 22,
+    order: 5,
   },
   {
     type: "software",
