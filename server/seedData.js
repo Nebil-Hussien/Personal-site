@@ -113,19 +113,6 @@ export const works = [
   },
   {
     type: "software",
-    slug: "fidel",
-    title: "Fidel",
-    description: "JavaScript web project.",
-    tags: ["JavaScript", "Web"],
-    links: {
-      code: "https://github.com/Nebil-Hussien/Fidel-Finalized",
-      demo: "",
-      paper: "",
-    },
-    order: 6,
-  },
-  {
-    type: "software",
     slug: "rfid-attendance",
     featured: true,
     title: "RFID Biometric Student Attendance",
@@ -137,13 +124,16 @@ export const works = [
   },
   {
     type: "software",
-    slug: "kubernetes",
-    title: "Kubernetes Fault Tolerance & Scaling",
-    description:
-      "Hands-on research into Kubernetes resilience: simulated pod failures and recovery with liveness and readiness probes, and observed automatic scaling under changing load.",
-    tags: ["Kubernetes", "Docker", "2023"],
-    links: { code: "", demo: "", paper: "" },
-    order: 22,
+    slug: "fidel",
+    title: "Fidel",
+    description: "JavaScript web project.",
+    tags: ["JavaScript", "Web"],
+    links: {
+      code: "https://github.com/Nebil-Hussien/Fidel-Finalized",
+      demo: "",
+      paper: "",
+    },
+    order: 6,
   },
   {
     type: "software",
@@ -325,6 +315,16 @@ export const works = [
     tags: ["Systematic review", "LLMs", "Aug 2025"],
     links: { code: "", demo: "", paper: "" },
     order: 9,
+  },
+  {
+    type: "software",
+    slug: "kubernetes",
+    title: "Kubernetes Fault Tolerance & Scaling",
+    description:
+      "Hands-on research into Kubernetes resilience: simulated pod failures and recovery with liveness and readiness probes, and observed automatic scaling under changing load.",
+    tags: ["Kubernetes", "Docker", "2023"],
+    links: { code: "", demo: "", paper: "" },
+    order: 9.5,
   },
   {
     type: "software",
