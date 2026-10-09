@@ -88,7 +88,7 @@ export const works = [
     title: "Digital Clinic & Remote Health Checkups",
     description:
       "Digital health platform built with the Ethiopian Ministry of Health and Bridge. It serves 3,000+ users and has helped create over 1,500 jobs for doctors and nurses.",
-    tags: ["Full-stack", "Digital health"],
+    tags: ["Full-stack", "Laravel", "Digital health", "Remote health checkups"],
     links: {
       code: "https://github.com/Nebil-Hussien/Digital-Clinic-and-Remote-Preventive-Health-Care-Public",
       demo: "",
@@ -118,7 +118,7 @@ export const works = [
     title: "RFID Biometric Student Attendance",
     description:
       "Cloud-based attendance system using RFID technology to track students entering school premises. I led the team; it is deployed at a prestigious school with 350+ users.",
-    tags: ["RFID", "Cloud", "Team lead"],
+    tags: ["Unistamp RFID","Spectra-Vision", "Cloud", "Python", "Django","Team lead"],
     links: { code: "", demo: "", paper: "" },
     order: 4.6,
   },
@@ -127,8 +127,9 @@ export const works = [
     slug: "fidel",
     featured: true,
     title: "Fidel",
-    description: "JavaScript web project.",
-    tags: ["JavaScript", "Web"],
+    description:
+      "Fidel is a web platform that connects students with tutors, with separate dashboards for students, tutors and admins. Students find and book sessions, tutors manage their teaching, and admins oversee users and activity. The interface can also be switched between languages, so learners can use it in the one they’re most comfortable with.",
+    tags: ["JavaScript", "MERN Stack", "Web", "Team lead"],
     links: {
       code: "https://github.com/Nebil-Hussien/Fidel-Finalized",
       demo: "",
@@ -202,7 +203,12 @@ export const works = [
       "MIT Media Lab",
       "2025",
     ],
-    links: { code: "", demo: "https://hpi-mit.vercel.app/", paper: "" },
+    links: {
+      code: "",
+      demo: "hpi-mit-future-you.vercel.app",
+      paper:
+        "https://www.researchgate.net/publication/408716860_Chatbot-Based_Future-Thinking_Interventions_For_Reducing_Impulsivity_and_Promoting_Healthier_Dietary_Choices_-A_Randomized_Controlled_Trial",
+    },
     order: 4.2,
   },
   {
@@ -310,11 +316,16 @@ export const works = [
     slug: "genai-writing-review",
     featured: true,
     title:
-      "Human-GenAI Collaboration in Writing: A Systematic Literature Review",
+      "Understanding Human-GenAI Collaboration in Writing in the Age of Generative AI: A Systematic Review of Literature",
     description:
       "Human-AI writing in the post-LLM era is an active, multidimensional partnership. 78% of studies report concrete functional benefits, 87% stress human agency and control, and 73.9% describe an interactive, back-and-forth process.",
     tags: ["Systematic review", "LLMs", "Aug 2025"],
-    links: { code: "", demo: "", paper: "" },
+    links: {
+      code: "",
+      demo: "",
+      paper:
+        "https://www.researchgate.net/publication/404263525_Understanding_Human-GenAI_Collaboration_in_Writing_in_the_Age_of_Generative_AI_A_Systematic_Review_of_Literature",
+    },
     order: 9,
   },
   {
@@ -353,19 +364,6 @@ export const works = [
       paper: "",
     },
     order: 21,
-  },
-  {
-    type: "software",
-    slug: "ezi-web",
-    title: "EZI Web",
-    description: "JavaScript web project.",
-    tags: ["JavaScript", "Web"],
-    links: {
-      code: "https://github.com/Nebil-Hussien/EZI-web",
-      demo: "",
-      paper: "",
-    },
-    order: 23,
   },
   {
     type: "software",
