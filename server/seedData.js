@@ -208,15 +208,13 @@ export const works = [
       "Randomized controlled trial testing whether chatbot-based future-thinking interventions reduce impulsivity and encourage healthier dietary choices.",
     tags: [
       "Randomized controlled trial",
-      "Chatbot",
       "Health behavior",
       "HPI",
       "MIT Media Lab",
-      "2025",
     ],
     links: {
       code: "",
-      demo: "hpi-mit-future-you.vercel.app",
+      demo: "https://hpi-mit-future-you.vercel.app/",
       paper:
         "https://www.researchgate.net/publication/408716860_Chatbot-Based_Future-Thinking_Interventions_For_Reducing_Impulsivity_and_Promoting_Healthier_Dietary_Choices_-A_Randomized_Controlled_Trial",
     },
