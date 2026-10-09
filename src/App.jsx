@@ -77,6 +77,10 @@ export default function App() {
         <Reveal as="section" id="work">
           <h2>Selected work</h2>
           <WorkGrid works={works} />
+          <p className="code-note">
+            <strong>Source code access:</strong> The code for my business and client projects is private and not publicly available.
+            Read-only collaborator access can be provided on request{profile.links.email && <> — <a href={`mailto:${profile.links.email}?subject=Code access request`}>email me</a></>}.
+          </p>
         </Reveal>
 
         <Reveal as="section" id="experience">

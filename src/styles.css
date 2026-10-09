@@ -175,3 +175,8 @@ footer { padding: 40px 20px 56px; color: var(--muted); font-size: .88rem; text-a
 .badge { color: var(--accent); }
 .tags li { background: transparent; }
 @media (max-width: 640px) { .hero { padding: 60px 22px 28px; border-radius: 32px; } }
+
+/* Source code access note */
+.code-note { margin: 28px 0 0; padding: 16px 22px; border: 1px dashed var(--border); border-radius: 20px; color: var(--muted); font-size: .92rem; }
+.code-note strong { color: var(--fg); font-weight: 500; }
+.code-note a { color: var(--accent); }
