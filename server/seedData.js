@@ -80,8 +80,8 @@ export const works = [
     featured: true,
     title: "Credit Scoring Model for Rural Areas",
     description:
-      "Credit scoring model built on data analytics to reduce lending risk for rural borrowers, supporting the loan process with an efficacy of 62%.",
-    tags: ["Python", "Data analysis", "Machine learning"],
+      "Designed a credit scoring model for rural borrowers using alternative KYC data, including Equb and Idir (community savings and mutual-aid groups), to assess financial responsibility. It replaced loan approval based on business-plan profitability alone and supported a business loan risk calculator. 62% of clients stayed current, with 38% falling 3+ months overdue.",
+    tags: ["R", "Rapid-miner", "Data analysis", "Machine learning"],
     links: { code: "", demo: "", paper: "" },
     order: 2,
   },
@@ -239,7 +239,6 @@ export const works = [
       "Skit-learn",
       "pytorch",
       "Feb 2026",
-
     ],
     links: {
       code: "",
@@ -390,7 +389,8 @@ export const works = [
     type: "software",
     slug: "Efar",
     title: "EFAR: E-commerce Platform for Android",
-    description: "E-commerce platform for buying and selling products, built with Android.",
+    description:
+      "E-commerce platform for buying and selling products, built with Android.",
     tags: ["Android", "Java", "MySQL"],
     links: {
       code: "https://github.com/Nebil-Hussien/efar",
