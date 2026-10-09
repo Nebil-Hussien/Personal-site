@@ -236,7 +236,10 @@ export const works = [
       "SVD",
       "QR decomposition",
       "Python",
+      "Skit-learn",
+      "pytorch",
       "Feb 2026",
+
     ],
     links: {
       code: "",
@@ -313,6 +316,13 @@ export const works = [
       "Machine Learning",
       "Sarcasm Detection",
       "Natural Language Processing",
+      "Naïve Bayes",
+      "Transformers",
+      "SVM",
+      "SMOTE",
+      "Skit-learn",
+      "pytorch",
+      "Aug 2025",
     ],
     links: {
       code: "https://github.com/Nebil-Hussien/ANLP-Sentiment-Sarcasm-Detection",
