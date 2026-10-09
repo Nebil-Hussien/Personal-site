@@ -66,8 +66,12 @@ export const works = [
     title: "Borsa: Loan Management System",
     description:
       "End-to-end loan management platform (Laravel backend and Android app). The first de-risked loan system deployed in Ethiopia, supported by the MasterCard Foundation, with over 102 million birr (about €613k) disbursed. I led a team of four using Agile and Jira to deliver the MVP.",
-    tags: ["Laravel", "Android", "MySQL", "Team lead", "2022–2024"],
-    links: { code: "", demo: "", paper: "" },
+    tags: ["Full-stack", "Laravel", "MYSQL"],
+    links: {
+      code: "https://github.com/Nebil-Hussien/Borsa--Loan-Managment-System-",
+      demo: "",
+      paper: "",
+    },
     order: 1,
   },
   {
@@ -118,7 +122,14 @@ export const works = [
     title: "RFID Biometric Student Attendance",
     description:
       "Cloud-based attendance system using RFID technology to track students entering school premises. I led the team; it is deployed at a prestigious school with 350+ users.",
-    tags: ["Unistamp RFID","Spectra-Vision", "Cloud", "Python", "Django","Team lead"],
+    tags: [
+      "Unistamp RFID",
+      "Spectra-Vision",
+      "Cloud",
+      "Python",
+      "Django",
+      "Team lead",
+    ],
     links: { code: "", demo: "", paper: "" },
     order: 4.6,
   },
@@ -367,10 +378,10 @@ export const works = [
   },
   {
     type: "software",
-    slug: "efar",
-    title: "Efar",
-    description: "JavaScript web project.",
-    tags: ["JavaScript", "Web"],
+    slug: "Efar",
+    title: "EFAR: E-commerce Platform for Android",
+    description: "E-commerce platform for buying and selling products, built with Android.",
+    tags: ["Android", "Java", "MySQL"],
     links: {
       code: "https://github.com/Nebil-Hussien/efar",
       demo: "",
